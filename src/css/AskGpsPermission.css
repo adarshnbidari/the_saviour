@@ -1,0 +1,229 @@
+#backgroundScreen{
+
+    display:-webkit-flex;
+    display:flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    background-color:rgba(0, 0, 0, 0.575);
+    z-index:999;
+
+
+}
+
+
+#optionDialogScreen{
+
+    display:block;
+    width:35%;
+    height:30vh;
+    background-color:snow;
+    border-radius:5px;
+    text-align: center;
+    color:rgb(21, 136, 165);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index:999;
+
+}
+
+
+#dialogTitleArea{
+
+    display:flex;
+    display:-webkit-flex;
+    width:100%;
+    height:35%;
+    border-radius: 5px 5px 0 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#dialogTitleArea b{
+    flex:5;
+    font-size:18px;
+    color:green;
+}
+
+
+#dialogTitleArea span{
+    flex:1;
+    font-size:18px;
+    color:black;
+}
+
+
+#dialogTitleArea span:hover{
+
+    cursor:pointer;
+    opacity:0.7;
+
+}
+
+
+#userSelectionBtn{
+
+    display:-webkit-flex;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:65%;
+    border-radius:0 0 5px 5px;
+    
+
+
+}
+
+
+#userSelectionBtn button{
+
+    width:10%;
+    height:20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px;
+    font-size:15px;
+    border:1px solid lightgrey;
+    border-radius:3px;
+    outline:none;
+
+}
+
+#userSelectionBtn button:hover{
+    cursor:pointer;
+    background-color: lightgrey;
+    color:green;
+}
+
+
+@media screen and (max-width:320px){
+
+    #optionDialogScreen{
+        width:100%;
+        height:30vh;
+    }
+
+    #dialogTitleArea b{
+        font-size:15px;
+    }
+
+    #dialogTitleArea span{
+        font-size:15px;
+    }
+
+    #userSelectionBtn button{
+
+        width:20%;
+        height:30%;
+        font-size:13px;
+        border:1px solid lightgrey;
+
+    
+    }
+
+
+}
+
+
+
+@media screen and (min-width:321px) and (max-width:375px){
+
+    #optionDialogScreen{
+
+        width:100%;
+        height:30vh;
+
+    }
+
+    #dialogTitleArea b{
+        font-size:15px;
+    }
+
+    #dialogTitleArea span{
+        font-size:15px;
+    }
+
+    #userSelectionBtn button{
+
+        width:20%;
+        height:30%;
+        font-size:14px;
+        border:1px solid lightgrey;
+
+    
+    }
+
+
+}
+
+
+
+@media screen and (min-width:376px) and (max-width:425px){
+
+    #optionDialogScreen{
+
+        width:100%;
+        height:30vh;
+
+    }
+
+    #dialogTitleArea b{
+        font-size:15px;
+    }
+
+    #dialogTitleArea span{
+        font-size:15px;
+    }
+
+    #userSelectionBtn button{
+
+        width:20%;
+        height:30%;
+        font-size:14px;
+        border:1px solid lightgrey;
+
+    
+    }
+
+
+}
+
+
+
+@media screen and (min-width:426px) and (max-width:768px){
+
+    #optionDialogScreen{
+
+        width:100%;
+        height:30vh;
+
+    }
+
+    #dialogTitleArea b{
+        font-size:15px;
+    }
+
+    #dialogTitleArea span{
+        font-size:15px;
+    }
+
+    #userSelectionBtn button{
+
+        width:20%;
+        height:30%;
+        font-size:14px;
+        border:1px solid lightgrey;
+
+    
+    }
+
+
+}
+
+
